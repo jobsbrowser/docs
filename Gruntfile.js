@@ -1,7 +1,6 @@
 module.exports = function(grunt) {
 
-    var type = grunt.option('type');
-    if(!type) type = 'pdf:html';
+    var type = grunt.option('type', 'pdf');
 
     // Project configuration.
     grunt.initConfig({
@@ -18,7 +17,7 @@ module.exports = function(grunt) {
                 interrupt: true
             },
             scripts: {
-                files: ['source/*.md'],
+                files: ['source/**/*.md'],
                 tasks: ['make:' + type, 'notify:make']
             }
         },
@@ -42,7 +41,7 @@ module.exports = function(grunt) {
         },
         open: {
             all: {
-                path: 'http://localhost:<%= express.all.options.port%>/thesis.html'
+                path: 'http://localhost:<%= express.all.options.port%>/docs.html'
             }
         }
     });
