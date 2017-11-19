@@ -25,8 +25,8 @@ help:
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates		  '
 
 pdf:
-	pandoc "$(INPUTDIR)"/*.md \
-	-o "$(OUTPUTDIR)/thesis.pdf" \
+	python scripts/join.py "$(INPUTDIR)" | pandoc \
+	-o "$(OUTPUTDIR)/docs.pdf" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	--template="$(STYLEDIR)/template.tex" \
 	--bibliography="$(BIBFILE)" 2>pandoc.log \
@@ -36,11 +36,11 @@ pdf:
 	-V papersize=a4paper \
 	-V documentclass:report \
 	-N \
-	--latex-engine=xelatex 
+	--latex-engine=xelatex
 
 tex:
-	pandoc "$(INPUTDIR)"/*.md \
-	-o "$(OUTPUTDIR)/thesis.tex" \
+	python scripts/join.py "$(INPUTDIR)" | pandoc \
+	-o "$(OUTPUTDIR)/docs.tex" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	--bibliography="$(BIBFILE)" \
 	-V fontsize=12pt \
@@ -51,15 +51,15 @@ tex:
 	--latex-engine=xelatex
 
 docx:
-	pandoc "$(INPUTDIR)"/*.md \
-	-o "$(OUTPUTDIR)/thesis.docx" \
+	python scripts/join.py "$(INPUTDIR)" | pandoc \
+	-o "$(OUTPUTDIR)/docs.docx" \
 	--bibliography="$(BIBFILE)" \
 	--csl="$(STYLEDIR)/ref_format.csl" \
 	--toc
 
 html:
-	pandoc "$(INPUTDIR)"/*.md \
-	-o "$(OUTPUTDIR)/thesis.html" \
+	python scripts/join.py "$(INPUTDIR)" | pandoc \
+	-o "$(OUTPUTDIR)/docs.html" \
 	--standalone \
 	--template="$(STYLEDIR)/template.html" \
 	--bibliography="$(BIBFILE)" \
