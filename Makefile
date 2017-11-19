@@ -35,6 +35,8 @@ pdf:
 	-V fontsize=12pt \
 	-V papersize=a4paper \
 	-V documentclass:report \
+	-V lang:polish \
+	-V mainlang:polish \
 	-N \
 	--latex-engine=xelatex
 
@@ -46,6 +48,8 @@ tex:
 	-V fontsize=12pt \
 	-V papersize=a4paper \
 	-V documentclass:report \
+	-V lang:polish \
+	-V mainlang:polish \
 	-N \
 	--csl="$(STYLEDIR)/ref_format.csl" \
 	--latex-engine=xelatex
