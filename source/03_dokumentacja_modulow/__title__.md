@@ -1,0 +1,1 @@
+# Specyfikacja komponentów systemu
