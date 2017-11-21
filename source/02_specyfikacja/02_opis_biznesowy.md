@@ -5,7 +5,7 @@
 Głównym zadaniem aplikacji ma być automatyczna analiza rynku pracy oraz
 prezentacja uzyskanych statystyk, wyciągniętych informacji użytkownikowi.
 Z racji konieczności zautomatyzowania oraz integracji znaczącej ilości
-procesów, system będzię składał się z 6 modułów:
+procesów, system będzie składał się z 6 modułów:
 
 1.  Pobieranie ofert pracy z wybranych serwisów internetowych.
 2.  Zapisywanie wcześniej zebranych ofert do bazy danych.

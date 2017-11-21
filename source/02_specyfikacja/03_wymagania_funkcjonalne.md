@@ -17,12 +17,9 @@ wchodzący na stronę będzie miał dostęp do tych samych danych oraz takie sam
 możliwości.
 
 Funkcjonalność strony rozbita jest na dwa moduły. Moduł wyszukiwarki
-oraz moduł statystyk. Możliwości użytkownika prezentuje diagram przypadków
-użycia. 
+oraz moduł statystyk. Możliwości użytkownika prezentuje załączony na końcu
+sekcji diagram przypadków użycia. 
 
-![Przypadki użycia. \label{ref_a_figure}](source/figures/usecase_diagram.png){ width=100% }
-
-\clearpage
 
 ## Wyszukiwanie ofert wg klucza
 
@@ -77,3 +74,7 @@ najczęściej w jednym ogłoszeniu
 
 Możliwe jest podanie wielu kluczy. Wtedy pod uwagę przy generowaniu powyższych
 statystyk będą brane tylko ogłoszenia które zawierają każdy z nich.
+
+![Przypadki użycia. \label{ref_a_figure}](source/figures/usecase_diagram.png){ width=100% }
+
+\clearpage
