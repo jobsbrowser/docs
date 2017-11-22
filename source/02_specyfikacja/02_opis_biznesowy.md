@@ -21,5 +21,14 @@ procesów, system będzie składał się z 6 modułów:
     przeglądać wyniki uzyskane dzięki wcześniejszym modułom.
 
 Użytkownik bezpośrednio będzie korzystał tylko z ostatniego modułu.
-Użytkownik będzię mógł za jego pomocą wykonać akcje opisane w
-poniższej sekcji (Wymagania funkcjonalne).
+Aplikacja będzie niosła korzyść duzej grupie odbiorców takich jak:
+
+-   studenci - dzięki aplikacji będą mogli znaleźć świetnie dopasowane
+    stanowisko do ich umiejętności lub obserwując dane stanowisko
+    określić jakie umięjętności są na nim elementarne, a także jakiej
+    technologii powinni się nauczyć w najbliższym czasie.
+-   osoby szukjące pracy - łatwo na podstawie swoich umiejętności znajdą
+    stanowiska dla siebie.
+-   pracodawcy - na podstawie trendów wśród używanych technologii będą mogli
+    podjąć decyzje dotyczące przyszłych projektów.
+-   pozostali użytkownicy zainteresowani analizą rynku pracy.
