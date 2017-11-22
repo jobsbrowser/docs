@@ -23,3 +23,14 @@ już ma na liście. Próba pobrania listy wykonywana jest po uruchomieniu progra
 przed rozpoczęciem skanowania. Jeżeli nie uda się jej otrzymać (serwer nie odpowie,
 lub odpowie z błędem), program wypisze w konsoli stosowny komunikat ostrzegający
 i przejdzie do przetwarzania wszystkich ofert.
+
+Wartym wspomnienia jest fakt stosowania przez serwis Pracuj.pl zabezpieczeń
+utrudniających automatyczne zbieranie danych. Podczas pierwszych testów naszego
+modułu wszystkie wychodzące żądania HTTP miały nagłówek `User-Agent` ustawiony
+na nazwę naszego projektu - `jobsbrowser`. Nie zauważyliśmy wtedy żadnych
+utrudnień ani trudności związanych z uzyskaniem przez scrapera dostępu do zasobów
+serwisu. Po kilku dniach jednak, sytuacja się zmieniła. Okazało się, że wszystkie
+nasze żądania (nawet z innych adresów IP) podpisane jako `jobsbrowser` były
+odrzucane przez serwer. Konieczne było wprowadzenie poprawki w kodzie modułu,
+tak żeby nagłówkiem `User-Agent` imitował przeglądarkę internetową. Wybór padł
+na Google Chrome w wersji 41 i to rozwiązało problem.
