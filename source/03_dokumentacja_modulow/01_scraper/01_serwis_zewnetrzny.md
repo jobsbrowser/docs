@@ -11,7 +11,10 @@ Widok listy ogłoszeń w serwisie umożliwia wybór kategorii, z których ogłos
 chcemy zobaczyć. Skorzystaliśmy z tej możliwości, aby uzyskać bazowy link od
 którego zaczniemy pobieranie ofert.
 
-(*Tutaj zdjęcie*)
+![Widok paginacji ogłoszeń w witrynie pracuj.pl. \label{ref_a_figure}](source/figures/pracuj_pagination_view.png){ width=100% }
+
+\clearpage
+
 
 Pracuj.pl przy zbiorczym  wyświetlaniu ofert używa paginacji. Oznacza to, że
 scraper musi poradzić sobie nie tylko z pobieraniem podstron poszczególnych ofert,
@@ -40,4 +43,6 @@ Te dwie wartości z powodzeniem mogą służyć za klucz pozwalający np.
 szybko sprawdzać czy oferta jest już w bazie systemu - czyli czy została już
 kiedyś przetworzona.
 
-(*Tutaj zdjęcie podstrony oferty*)
+![Widok oferty w witrynie pracuj.pl. \label{ref_a_figure}](source/figures/pracuj_offer_view.png){ width=100% }
+
+\clearpage
