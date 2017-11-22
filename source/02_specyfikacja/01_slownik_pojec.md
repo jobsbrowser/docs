@@ -12,3 +12,6 @@
 -   **web scraper** - program, którego głównym zadaniem jest zbierać określone
     dane ze stron internetowych. Gdy w dokumentacji używamy słowa "scraper"
     zawsze odnosi się ono właśnie do "web scraper'a".
+
+-   pipeline - łańcuch przetwarzania danych, w którym wejściem kolejnego etapu
+    jest wyjście poprzedniego etapu.
