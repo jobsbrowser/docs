@@ -32,5 +32,3 @@ konkretnie tego projektu są `STORAGE_SERVICE_ADD_URL` oraz `STORAGE_SERVICE_RET
 które oznaczają adresy URL pod który program może wykonać żądania w celu odpowiednio,
 dodania nowo przetworzonej strony oraz uzyskania listy adresów URL ofert których
 nie powinien przetwarzać.
-
-W celu uruchomienia testów w konsoli należy wpisać polecenie `pytest`.
