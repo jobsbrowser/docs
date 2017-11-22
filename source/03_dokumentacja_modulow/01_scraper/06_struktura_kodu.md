@@ -15,6 +15,7 @@ omówieniem:
 │   │   └── spiders          # katalog z definicjami pająków zbierających dane
 │   │       ├── __init__.py
 │   │       └── pracuj.py    # definicja pająka zbierającego dane ze strony pracuj.pl
+│   ├── tests/               # katalog z testami projektu
 │   ├── run.sh               # plik wykonywalny uruchamiający proces zbierania danych
 │   └── scrapy.cfg           # konfiguracja całego projektu
 └── requirements.txt         # plik z wymaganiami projektu
