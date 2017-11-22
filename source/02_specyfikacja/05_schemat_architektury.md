@@ -34,10 +34,10 @@ przetwarzania ich ponownie.
 
 
 ## Pipeline
-Zebrane ogłoszenia trafiają do komponentu *Pipeline* (ang. Rurociąg).
-Tutaj poddawane są następnej części procesu przetwarzania. Nazwa komponentu
-odnosi się do zasady jego działania. Odbierane ogłoszenia przekazywane są przez
-kolejne podmoduły, które wykonują na nich stosowne operacje.
+Zebrane ogłoszenia trafiają do komponentu *Pipeline* (Łańcucha przetwarzania).
+Nazwa komponentu odnosi się do zasady jego działania.
+Odbierane ogłoszenia przekazywane są przez kolejne podmoduły, które wykonują na
+nich stosowne operacje.
 
 Pierwszym elementem jest moduł przechowujący dane. Odbiera on nowe ogłoszenia
 od modułu zbierającego i zapisuje je w bazie danych. Jednocześnie oferuje
