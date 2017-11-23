@@ -15,7 +15,9 @@
         \vspace{1.5cm}
 
         \normalsize
-        Praca inżynierska
+        Praca inżynierska\linebreak
+        \small
+        wersja 0.1
 
         \vspace{0.8cm}
 
