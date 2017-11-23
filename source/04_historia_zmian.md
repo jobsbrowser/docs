@@ -5,11 +5,8 @@
 +------------+---------------------+-------------------------------------+------+
 |Data        |Autor                |Opis zmian                           |Wersja|
 +============+=====================+=====================================+======+
-| 04.11.2017 | Bartłomiej Sielicki | Dodanie harmonogramu.               | 0.1  |
-|            | Łukasz Skarżyński   |                                     |      |
-+------------+---------------------+-------------------------------------+------+
-| 18.11.2017 | Bartłomiej Sielicki | Dodanie specyfikacji technicznej.   | 0.2  |
-|            | Łukasz Skarżyński   |                                     |      |
+| 23.11.2017 | Bartłomiej Sielicki | Rozdział 1\linebreak                | 0.1  |
+|            | Łukasz Skarżyński   | Rozdział 2 - moduł zbierania danych |      |
 +------------+---------------------+-------------------------------------+------+
 
 Table: Historia Zmian
