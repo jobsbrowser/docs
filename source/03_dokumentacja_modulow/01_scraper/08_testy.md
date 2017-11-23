@@ -3,7 +3,7 @@
 W kodzie źródłowym modułu znajdują się testy jednostkowe pozwalające na
 przetestowanie poprawności zaimplementowanych metod i funkcji. W tej sekcji
 znajduje się również opis przykładowego scenariusza testów akceptacyjnych.
-Testów integracyjne na tym etapie nie są jeszcze przewidziane. Moduł zbierania
+Testy integracyjne na tym etapie nie są jeszcze przewidziane. Moduł zbierania
 danych jest pierwszym modułem i bez implementacji pozostałych ich wykonanie
 jest niemożliwe.
 
@@ -50,3 +50,45 @@ Moduł zbierania danych zajmuje się, jak mówi sama nazwa, jedynie ich zbieran
 Domyślnie nie są one nigdzie przechowywane, ani zapisywane. Podejście takie
 utrudnia nieco przygotowanie testów akceptacyjnych obejmujących wyłącznie
 ten komponent, ale nie uniemożliwia, co zaraz wykażemy.
+
+Zasada działania programu (uruchamianego przez `run.sh`) jak opisano
+już wcześniej sprowadza się do zbierania ofert i wysyłania ich do kolejnego
+modułu systemu (z wypisaniem stosownego komunikatu, jeśli ten nie odpowiada).
+Bez tego komponentu, nie zobaczymy nigdzie zebranych ofert, ani też nie
+dostarczymy scraperowi listy już zebranych, co będzie skutkowało zebraniem
+wszystkich. Nie są to warunki idealne na testy akceptacyjne - gdzie przecież
+chcemy upewnić się że komponent faktycznie działa. Wykorzystamy jednak fakt
+że skrypt uruchamiający przekazuje swoje parametry do procesu scrapera, co
+pozwala na nadpisanie jego ustawień na czas uruchomienia. Dzięki temu
+ograniczymy zbiór przetwarzanych ofert (do jednej strony) i zapiszemy je na dysku,
+aby przekonać się że interesujące nas elementy faktycznie zostały z ofert
+wyłuskane.
+
+Aby wykonać takie polecenie testujące sprawność scrapera, do skryptu musimy
+przekazać kilka dodatkowych argumentów:
+
+`./run.sh -s DEPTH_LIMIT=1 -o oferty.json`
+
+Oznaczają one odpowiednio:
+
++ `-s DEPTH_LIMIT=1` - nadpisanie ustawień scrapera dotyczących maksymalnej
+  "głębokości" na jaką może się zapuścić. W naszym przypadku oznacza to liczbę
+  przetworzonych stron
++ `-o oferty.json` - wymusza zapis przetworzonych obiektów do pliku `oferty.json`
+
+Ponadto uruchomieniu towarzyszyć będą wypisywane w terminalu komunikaty
+informujące o przetworzeniu danej oferty oraz próbie wysłania jej do sąsiedniego
+komponentu. Mówią one użytkownikowi czym program aktualnie się zajmuje i na jakie
+trafia problemy. Po zakończeniu w katalogu w którym znajduje się wywołany skrypt
+znajdziemy plik `oferty.json` który zawiera zebrane oferty. Z powodu
+przechowywania w obiekcie również surowej wersji przetwarzanej strony (w postaci
+kodu HTML) nie jest on szczególnie czytelny dla człowieka, jednak bez problemu
+można wykonywać na nim dowolne operacje, np. z poziomu innego programu.
+
+\clearpage
+
+![Komunikaty w oknie terminala \label{ref_a_figure}](source/figures/scrapy_logs.png){ width=100% }
+
+![Przykładowy dostęp do wynikowego pliku JSON \label{ref_a_figure}](source/figures/scrapy_json.png){ width=100% }
+
+\clearpage
