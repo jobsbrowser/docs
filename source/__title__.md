@@ -33,7 +33,7 @@
         \normalsize
         Wydział Matematyki i Nauk Informacyjnych \\
         Politechniki Warszawskiej \\
-        19.11.2017
+        23.11.2017
 
     \end{center}
 \end{titlepage}
