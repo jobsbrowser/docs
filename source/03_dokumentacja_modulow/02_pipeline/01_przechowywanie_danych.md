@@ -40,7 +40,19 @@ Nie ma potrzeby również stosowania mechanizmu transakcji, czy skomplikowanych
 zapytań. Tym czego faktycznie oczekujemy od bazy jest wydajność, dostępność
 oraz ewentualna skalowalność. Wybór był więc prosty.
 Struktura dokumentów przechowywanych w bazie jest identyczna jak struktura
-zebranego ogłoszenia.
+zebranego ogłoszenia. Dla przypomnienia, pola jakie wyróżniamy w dokumencie
+oferty to:
+
++ Adres URL
++ Czas w którym pobrano ofertę
++ Kod HTML strony z ofertą
++ ID oferty w systemie pracuj.pl
++ Data dodania
++ Data ważności
++ Podmiot dodający
++ Tytuł oferty
++ Miejsce pracy
++ Kod HTML treści oferty
 
 
 ## Uruchomienie
