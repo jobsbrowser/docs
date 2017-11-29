@@ -85,6 +85,26 @@ oferty to:
 + Kod HTML treści oferty
 
 
+## Integracja z kolejnym modułem
+
+Początkowe plany zakładały użycie w tym miejscu (po dodaniu oferty do bazy)
+frameworka *Luigi*. Jest to stworzone przez twórców aplikacji *Spotify* narzędzie
+do łączenia ze sobą kolejnych funkcji / etapów tworząc łańcuch przetwarzania (
+wspomniany w kilku miejscach tzw. *Pipeline*). Okazało się jednak, że przewidziane
+zastosowania narzędzia obsługują etapy nieco innego typu niż te do zaimplementowania
+w module ekstrakcji kluczy. Luigi przeznaczony jest bowiem do łączenia bardzo
+wymagających zadań, angażujących wiele zewnętrznych usług czy języków programowania
+i wykonujących się nawet kilka dni. W efekcie nie udostępnia chociażby tak podstawowej
+w mniejszych zastosowaniach możliwości, jak uruchamianie zadania z poziomu kodu
+źródłowego. W grę wchodzi jedynie linia poleceń. Zdecydowaliśmy się więc na
+porzucenie go, na rzecz frameworka *Celery* którego obsługa zadań jest tym
+czego potrzebujemy. Stracimy co prawda na odporności na awarie (Luigi zapisuje
+stan po każdym zadaniu, i wraca do niego po awarii), lecz zdecydowanie
+zyskamy na łatwości implementacji.
+
+Użycie frameworka Celery jest częścią kolejnego modułu, tj. modułu ekstrakcji
+kluczy, więc to tam znajdzie się dotycząca tej kwestii dokumentacja.
+
 ## Uruchomienie
 
 Do uruchomienia API korzystamy z polecenia `python manage.py runserver`.
@@ -151,3 +171,22 @@ Poniżej przedstawiamy opis testów znajdujących się w pliku
 -   `test_get_offers_resource_query_mongo_db` - test sprawdza czy
     po wykonaniu zapytania HTTP GET na endpoint */offers* wykonywana jest próba
     pobrania danych z bazy danych.
+    
+  
+### Testy akceptacyjne
+
+Interfejs modułu zbierania danych jest dość ubogi. Zajmuje się on bowiem
+jedynie dodawaniem ofert oraz zwracaniem informacji o adresach URL tych już
+istniejących. Test jaki możemy przeprowadzić aby upewnić się moduł działa
+poprawnie może więc polegać na:
+
++ Uruchomieniu usługi wg instrukcji z dokumentacji
++ Wykonaniu zapytania o listę ofert (powinna być pusta)
++ Wykonaniu żądania dodającego nową ofertę
++ Wykonaniu zapytania o listę ofert raz jeszcze. Powinniśmy otrzymać adres URL
+  przesłany w poprzednim kroku.
+  
+  
+*Tutaj 4 screeny - po jednym na każdy krok*
+
+
