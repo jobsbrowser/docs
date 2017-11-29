@@ -16,3 +16,14 @@
 
 -   **pipeline** - łańcuch przetwarzania danych (funkcji), w którym wejściem
     kolejnego etapu jest wyjście poprzedniego.
+
+-   **framework** - szkielet do budowy różnego rodzaju aplikacji.
+    Definiuje on strukturę aplikacji oraz ogólny mechanizm jej działania,
+    oraz dostarcza zestaw komponentów i bibliotek ogólnego przeznaczenia do
+    wykonywania określonych zadań.
+
+-   **API** - (ang. Application Programming Interface) interfejs programowania
+    aplikacji, jest to ściśle określony zestaw reguł i ich opisów, w jaki
+    programy komputerowe komunikują się między sobą. Najczęściej używamy
+    tego słowa w odniesieniu do WEB API - interfejsu komunikacji korzystającego
+    z HTTP oraz formatu JSON do przesyłania danych.
