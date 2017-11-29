@@ -32,13 +32,13 @@ Natomiast na drodze komunikacji z kolejnym modułem:
 Wymagania niefunkcjonalne modułu sprowadzają się natomiast do:
 
 + **niezawodności** - usługa powinna być dostępna możliwie cały czas. Nie jest to
-jednak kwestia kluczowa, ponieważ stosunkowo krótkie braki w dostępności (
-rzędu maksymalnie kilku dni) nie ciągną za sobą konsekwencji.
-Jeżeli moduł zbierający dane nie uzyska odpowiedzi od modułu zajmującego się
-ich przechowywaniem, informacje o tej ofercie nie zostaną nigdzie zapisane.
-Kiedy usługa przechowywania będzie ponownie dostępna, na zapytanie scrapera
-o listę ofert będących już w bazie zwróci tę sprzed awarii, wszystkie pominięte
-oferty zostaną więc ostatecznie dodane.
+  jednak kwestia kluczowa, ponieważ stosunkowo krótkie braki w dostępności (
+  rzędu maksymalnie kilku dni) nie ciągną za sobą konsekwencji.
+  Jeżeli moduł zbierający dane nie uzyska odpowiedzi od modułu zajmującego się
+  ich przechowywaniem, informacje o tej ofercie nie zostaną nigdzie zapisane.
+  Kiedy usługa przechowywania będzie ponownie dostępna, na zapytanie scrapera
+  o listę ofert będących już w bazie zwróci tę sprzed awarii, wszystkie pominięte
+  oferty zostaną więc ostatecznie dodane.
 
 + **wydajności** - liczba nadchodzących ofert może być potencjalnie duża, proces
   zapisu do bazy powinien być więc jak najmniej skomplikowany i efektywny, aby
