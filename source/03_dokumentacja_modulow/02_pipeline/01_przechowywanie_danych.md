@@ -82,7 +82,8 @@ oferty to:
 + Podmiot dodający
 + Tytuł oferty
 + Miejsce pracy
-+ Kod HTML treści oferty
++ Kod HTML treści oferty (rozbity na opis, kwalifikacje oraz benefity - wg
+  struktury Pracuj.pl)
 
 
 ## Integracja z kolejnym modułem
@@ -187,6 +188,18 @@ poprawnie może więc polegać na:
   przesłany w poprzednim kroku.
   
   
-*Tutaj 4 screeny - po jednym na każdy krok*
+\clearpage
+
+![Uruchomienie serwera \label{ref_a_figure}](source/figures/db_test_1.png){ width=100% }
+
+![Pierwsze zapytanie o listę \label{ref_a_figure}](source/figures/db_test_2.png){ width=100% }
+
+\clearpage
+
+![Dodanie nowej oferty \label{ref_a_figure}](source/figures/db_test_3.png){ width=100% }
+
+![Ponowne zapytanie o listę \label{ref_a_figure}](source/figures/db_test_4.png){ width=100% }
+
+\clearpage
 
 
