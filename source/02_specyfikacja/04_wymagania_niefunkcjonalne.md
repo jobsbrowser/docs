@@ -25,7 +25,7 @@ aplikacji.
 |                  | oddzielnych serwerach.                                    |
 |                  | \linebreak                                                |
 +------------------+-----------------------------------------------------------+
-| Wydajność        | Aplikacja WWW powinna działać płynnie na każdym komuterze |
+| Wydajność        | Aplikacja WWW powinna działać płynnie na każdym komputerze|
 | (Performance)    | z dowolnym systemem operacyjnym na 1 z wcześniej          |
 |                  | wymienionych przeglądarek.                                |
 |                  | Pozostałe moduły powinny uruchamiać się same co określony |
