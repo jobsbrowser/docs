@@ -31,3 +31,16 @@ poszczególnych funkcji lub metod:
     ekstrakcje tagów z technologiami z oferty.
 -   `pipeline.tasks.test_postprocess.py` - plik z testami etapów wykonujących
     zadania po wykonaniu ekstrakcji kluczy.
+
+
+## Testy akceptacyjne
+
+Funkcje modułu podczas normalnej pracy systemu działają w tle, uzupełniając przychodzące z modułu
+zbierania danych oferty o listę wykrytych kluczy. Poprawne jego działanie, można więc przetestować
+wywołując łańcuch przetwarzania ręcznie, dla wybranej z bazy oferty. Proces wygląda następująco:
+
++ W linii poleceń pobieramy jedną z ofert z bazy
++ Wywołujemy na niej łańcuch przetwarzania
++ Podglądamy listę wykrytych kluczy
+
+
