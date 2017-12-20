@@ -53,11 +53,11 @@ omówieniem.
 
 # Główne klasy modułu
 
--   **MongoDBTask** - klasa bazowa dla etapów łańcucha przetwarzania danych
+-   `MongoDBTask` - klasa bazowa dla etapów łańcucha przetwarzania danych
     korzystających z danych znajdujących się w bazie MongoDB.
--   **TagsFindingTask** - klasa bazowa dla etapu pipeline'a, który znajduje
+-   `TagsFindingTask` - klasa bazowa dla etapu pipeline'a, który znajduje
     technologie(tagi) w ofercie.
--   **LanguageNotSupported** - klasa błędu, rzucanego w przypadku próby
+-   `LanguageNotSupported` - klasa błędu, rzucanego w przypadku próby
     przetwarzania oferty napisanej w języku innym niż polski.
 -   `prepare` - etap przygotowujący dane do dalszego przetwarzania.
 -   `strip_html_tags` - etap usuwający tagi HTML z ofert.
