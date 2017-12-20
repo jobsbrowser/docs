@@ -20,14 +20,14 @@ zaopatrzyć się w miarę obszerny i sprawdzony ich zbiór.\newline
 Podejście takie, jak później się
 okazało wydaje się być całkiem słuszne, ponieważ stosowane jest także w projektach
 o znacznie szerszym zasięgu i złożoności niż nasz. Dla przykładu, powstająca w momencie
-pisania tej pracy platforma **Google Cloud Job Discavery**[@googlecloudjob]`, zajmująca się automatycznym dopasowywaniem
+pisania tej pracy platforma **Google Cloud Job Discavery**, zajmująca się automatycznym dopasowywaniem
 ofert pracy do CV potencjalnych pracowników, do działania wykorzystuje zbudowaną przez zespół Google
 ontologię zawierającą, jak podają, ok. 50 tys. umiejętności z różnych pól zawodowych.
 
 Z racji tego, że nasz projekt skupia się na ofertach pracy z branży IT, postanowiliśmy skorzystać z faktu
 że istotne, oczekiwane przez pracodawców umiejętności, pokrywają się z nazwami technologii informatycznych,
 czy języków programowania. Jako źródło takich danych, postanowiliśmy wykorzystać niesamowicie popularny
-wśród ludzi zainteresowanych IT portal **Stack Overflow**[@stackoverflow]. API tego serwisu pozwala na pobranie
+wśród ludzi zainteresowanych IT portal **Stack Overflow**. API tego serwisu pozwala na pobranie
 używanych przez jego użytkowników tagów, posortowanych według popularności. Wszystkich jest blisko 40 tys.
 
 Na potrzeby naszego projektu, korzystamy ze zbioru dziesięciu tysięcy najpopularniejszych tagów. Znajdują się
