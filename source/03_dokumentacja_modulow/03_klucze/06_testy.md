@@ -15,7 +15,7 @@ poszczególnych funkcji lub metod:
 
 -   `pipeline.tasks.test_preprocess.py` - plik z testami etapów
     przygotowujących oferty do ekstrakcji tagów.
-    -   **TestDetectLanguage** - klasa zawierająca metody testujące etap
+    -   `TestDetectLanguage` - klasa zawierająca metody testujące etap
         detekcji języka w którym napisane jest ogłoszenie.
     -   `test_prepare_extract_proper_fields_from_offer` - test sprawdzający
         czy etap przygotowujący ofertę, tworzy oraz wybiera odpowiednie
