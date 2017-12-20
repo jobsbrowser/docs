@@ -1,18 +1,3 @@
-# Etapy pipeline'a
-
-Łańcuch przetwarzania ofert pobranych z serwisu `pracuj.pl` składa się
-z następujących etapów:
-
--   wybranie odpowiednich pól z oferty
--   usunięcie tagów HTML z opisu oferty
--   podzielenie opisu oferty na tokeny
--   detekcja języka w jakim napisana jest oferta, w przypadku detekcji języka
-    innego niż polski, w tym miejscu kończy się przetwarzanie oferty
--   usunięcie nieistotnych słów np. "tak", "więc"
--   znalezienie technologii(tagów) jakich dotyczy oferta
--   zapisanie przetworzonej oferty ze znalezionymi technologiami(tagami) do
-    bazy danych MongoDB
-
 # Struktura kodu
 
 Poniżej prezentujemy drzewo katalogów oraz plików modułu wraz z krótkim
