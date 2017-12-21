@@ -2,7 +2,7 @@
 
 ## Testy jednostkowe
 
-Aby uruchomić testy jednostkowe, w konsoli należy wpisać polecenie `pytest`.
+Aby uruchomić testy jednostkowe, w konsoli należy wpisać polecenie `tox`.
 Poniżej przedstawiamy opis testów znajdujących się w pliku
 `jobsbrowser/tests/test_api_resources.py`:
 
@@ -14,8 +14,11 @@ Poniżej przedstawiamy opis testów znajdujących się w pliku
 -   `test_get_offers_resource_query_mongo_db` - test sprawdza czy
     po wykonaniu zapytania HTTP GET na endpoint */offers* wykonywana jest próba
     pobrania danych z bazy danych.
-    
-  
+-   `test_update_offer_resource_query_mongo_db` - test sprawdza czy
+    po wykonaniu zapytania HTTP PUT na endpoint /offer wykonywana
+    jest próba pobrania oferty oraz uaktualnienia jej w bazie.
+
+
 ## Testy akceptacyjne
 
 Interfejs modułu zbierania danych jest dość ubogi. Zajmuje się on bowiem
@@ -28,8 +31,8 @@ poprawnie może więc polegać na:
 + Wykonaniu żądania dodającego nową ofertę
 + Wykonaniu zapytania o listę ofert raz jeszcze. Powinniśmy otrzymać adres URL
   przesłany w poprzednim kroku.
-  
-  
+
+
 \clearpage
 
 ![Uruchomienie serwera \label{ref_a_figure}](source/figures/db_test_1.png){ width=100% }

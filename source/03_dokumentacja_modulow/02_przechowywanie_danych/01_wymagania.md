@@ -12,6 +12,8 @@ obydwu kierunków komunikacji. Interfejs HTTP powinien pozwalać na dwie operacj
 
 + Dodanie oferty do bazy (nadpisując jeśli oferta z takim adresem URL już istnieje)
 + Pobranie listy adresów URL ofert zapisanych już w bazie
++ Uaktualnienie wybranej oferty z bazy danych
+
 
 Natomiast na drodze komunikacji z kolejnym modułem:
 

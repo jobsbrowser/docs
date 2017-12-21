@@ -5,6 +5,7 @@
 -   `get_offers` - funkcja implementująca pobieranie aktualnych ofert (takich
     których data w polu *valid_through* jest większa od daty dzisiejszej)
     znajdujących się w bazie danych.
+-   `update_offer` - funkcja implementująca uaktualnianie oferty z bazy.
 -   `init_app` - funkcja tworząca aplikację z podaną konfiguracją (jako
     parametr *config_name* lub zmienna środowiskowa `APP_CONFIG`).
 -   **BaseConfig** - klasa z bazową, fundamentalną konfiguracją.

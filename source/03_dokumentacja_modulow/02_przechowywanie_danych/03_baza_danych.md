@@ -20,5 +20,6 @@ oferty to:
 + Podmiot dodający
 + Tytuł oferty
 + Miejsce pracy
++ Kategorie oferty
 + Kod HTML treści oferty (rozbity na opis, kwalifikacje oraz benefity - wg
   struktury Pracuj.pl)
