@@ -44,3 +44,15 @@ wywołując łańcuch przetwarzania ręcznie, dla wybranej z bazy oferty. Proces
 + Podglądamy listę wykrytych kluczy
 
 
+\clearpage
+
+![Przykładowy skrypt testujący\label{ref_a_figure}](source/figures/test_pipeline_script.png){ width=100% }
+
+![Tekst przykładowej oferty\label{ref_a_figure}](source/figures/test_offer_content.png){ width=100% }
+
+\clearpage
+
+![Rezultat \label{ref_a_figure}](source/figures/test_pipeline_result.png){ width=100% }
+
+\clearpage
+
