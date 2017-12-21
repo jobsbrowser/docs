@@ -7,7 +7,9 @@ omówieniem:
 ├── jobsbrowser
 │   ├── jobsbrowser
 │   │   ├── __init__.py
+│   │   ├── extractors.py    # definicje klas ekstraktujących linki z ofertami
 │   │   ├── items.py         # definicje klas przechowujących zebrane dane
+│   │   ├── loaders.py       # definicje klas ładujących zebrane dane
 │   │   ├── loaders.py       # definicje klas ładujących zebrane dane
 │   │   ├── middlewares.py
 │   │   ├── pipelines.py     # definicje kolejnych etapów przetwarzania danych

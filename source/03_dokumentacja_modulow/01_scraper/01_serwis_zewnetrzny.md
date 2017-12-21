@@ -4,8 +4,25 @@ Pracuj.pl dzieli zamieszczone w nim oferty na kategorie. My, z racji tematyki
 pracy skupiamy się wyłącznie na trzech z nich:
 
 + Internet / e-Commerce / Nowe media
+    + E-marketing / SEM / SEO
+    + Media społecznościowe
+    + Projektowanie
+    + Sprzedaż / e-Commerce
+    + Tworzenie stron WWW / Technologie internetowe
 + IT - Administracja
+    + Administrowanie bazami danych i storage
+    + Administrowanie sieciami
+    + Administrowanie systemami
+    + Bezpieczeństwo / Audyt
+    + Wdrożenia ERP
+    + Wsparcie techniczne / Helpdesk
+    + Zarządzanie usługami
 + IT - Rozwój oprogramowania
+    + Analiza biznesowa
+    + Architektura
+    + Programowanie
+    + Testowanie
+    + Zarządzanie projektem
 
 Widok listy ogłoszeń w serwisie umożliwia wybór kategorii, z których ogłoszenia
 chcemy zobaczyć. Skorzystaliśmy z tej możliwości, aby uzyskać bazowy link od
@@ -32,6 +49,7 @@ sposób informacje to:
 + Lokalizacja (miasto i województwo)
 + Tytuł oferty
 + Treść oferty
++ Kategorie w których znajduje się dana oferta
 
 Ponadto, w łatwy sposób można uzyskać również dwie wartości jednoznacznie
 identyfikujące ofertę:
