@@ -1,0 +1,1 @@
+# Główne klasy modułu
