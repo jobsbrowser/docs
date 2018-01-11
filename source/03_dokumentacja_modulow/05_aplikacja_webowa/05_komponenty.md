@@ -1,6 +1,7 @@
 # Główne komponenty aplikacji
 
 Poniżej prezentujemy najważniejsze komponenty aplikacji wraz z krótkim opisem:
+
 -   komponenty UI
     -   `Menu` - komponent generujący widok górnego menu.
     -   `TagInput` - komponent obsługujący pobieranie kluczy (tagów) od użytkownika

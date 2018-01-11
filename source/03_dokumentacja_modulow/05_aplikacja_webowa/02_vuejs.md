@@ -1,7 +1,7 @@
 # VueJS
 
 Do stworzenia aplikacji zdecydowaliśmy się użyć stosunkowo nowego
-frameworka VueJS[@vue].
+frameworka VueJS[@vuejs].
 Jest to framework napisany w języku JavaScript oparty na architekturze
 MVVVM (Model-View--View-Model). VueJS umożliwia tworzenie lekkich
 oraz szybkich aplikacji webowych. Budowanie aplikacji polega na
