@@ -5,3 +5,4 @@ Kod źródłowy znajduje się pod adresem:
 
 Aplikacja będąca ostatnim komponentem systemu oraz jedynym który wchodzi
 w bezpośrednią interakcję z użytkownikiem.
+

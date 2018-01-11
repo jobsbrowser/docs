@@ -2,10 +2,17 @@
 
 Głównym wymaganiem funkcjonalnym aplikacji jest prezentowanie
 danych oraz wyciągniętych z nich statystyk i informacji użytkownikowi
-w jak najbardziej przystępny oraz przejrzysty sposób.
+w jak najbardziej przystępny oraz przejrzysty sposób. Rozwiązaniem jest
+organizacja strony na trzy zakładki pomiędzy którymi użytkownik może się swobodnie
+przełączać. Zakładki odpowiadają odpowiednio możliwościom:
+
++ wyszukiwania ofert na podstawie wpisanych w polu wyszukiwania
+kluczy. 
++ generowania statystyk na podstawie wpisanych w polu wyszukiwania kluczy
++ przeglądania strony informacyjnej wraz ze statystykami zbiorczymi
 
 
-Wymagania niefunkcjonalne modułu sprowadzają się natomiast do:
+Wymagania niefunkcjonalne sprowadzają się natomiast do:
 
 + **niezawodności** - usługa powinna być dostępna cały czas, ponieważ
   jest ona usługą końcową z której użytkownicy powinni móc korzystać
