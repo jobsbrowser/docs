@@ -15,7 +15,7 @@ omówieniem.
 │   │   ├── LineChart.js  # komponent obsługujący rysowanie wykresów liniowych
 │   │   ├── Menu.vue      # komponent reprezentujący menu aplikacji
 │   │   ├── Offer.vue     # komponent reprezentujący widok oferty
-│   │   └── TagInput.vue  # komponent obsługujący pobieranie tagów od użytkownika
+│   │   └── TagInput.vue  # komponent obsługujący pobieranie kluczy od użytkownika
 │   ├── main.js           # plik wejściowy dla aplikacji
 │   ├── pages             # katalog z komponentami reprezentującymi podstrony aplikacji
 │   │   ├── Info.vue      # komponent prezentujący informacje o projekcie

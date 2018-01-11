@@ -3,7 +3,7 @@
 Poniżej prezentujemy najważniejsze komponenty aplikacji wraz z krótkim opisem:
 -   komponenty UI
     -   `Menu` - komponent generujący widok górnego menu.
-    -   `TagInput` - komponent obsługujący pobieranie tagów/kluczy od użytkownika
+    -   `TagInput` - komponent obsługujący pobieranie kluczy (tagów) od użytkownika
         w interaktywny sposób.
     -   `Offer` - komponent generujący widok listy ofert z odpowiednimi tagami pobranymi
         od użytkownika poprzez komponent `TagInput`.
@@ -17,5 +17,5 @@ Poniżej prezentujemy najważniejsze komponenty aplikacji wraz z krótkim opisem
     -   `Info` - komponent korzystający z komponentów: `Menu`. Pobiera
         informacje na temat projektu **JobsBrowser** oraz je prezentuje.
     -   `Stats` - komponent korzystający z komponentów: `Menu`, `TagInput` oraz
-        `LineChart`. Pobiera statystyki dotyczące wybranych tagów oraz prezentuje
+        `LineChart`. Pobiera statystyki dotyczące wybranych kluczy oraz prezentuje
         je użytkownikowi w formie wykresów.

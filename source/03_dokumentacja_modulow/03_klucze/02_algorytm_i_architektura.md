@@ -28,9 +28,9 @@ Z racji tego, że nasz projekt skupia się na ofertach pracy z branży IT, post
 że istotne, oczekiwane przez pracodawców umiejętności, pokrywają się z nazwami technologii informatycznych,
 czy języków programowania. Jako źródło takich danych, postanowiliśmy wykorzystać niesamowicie popularny
 wśród ludzi zainteresowanych IT portal **Stack Overflow**. API tego serwisu pozwala na pobranie
-używanych przez jego użytkowników tagów, posortowanych według popularności. Wszystkich jest blisko 40 tys.
+używanych przez jego użytkowników kluczy, posortowanych według popularności. Wszystkich jest blisko 40 tys.
 
-Na potrzeby naszego projektu, korzystamy ze zbioru dziesięciu tysięcy najpopularniejszych tagów. Znajdują się
+Na potrzeby naszego projektu, korzystamy ze zbioru dziesięciu tysięcy najpopularniejszych kluczy. Znajdują się
 wśród nich wszelakie technologie, frameworki, wzorce projektowe i języki programowania. Mając taką listę,
 możemy każdą przychodzącą ofertę przeszukać pod względem występowania niektórych z nich. Proces ten przeprowadzamy
 w następując sposób:
@@ -50,7 +50,7 @@ widzenia komponentu dane, tj.
 
 5. Usuwamy zbędne z punktu widzenia analizy językowej tokeny, takie jak przyimki, spójniki czy zaimki.
 
-6. Dla listy uzyskanych tokenów sprawdzamy które z nich znajdują się na liście znanych nam tagów, i te zapisujemy.
+6. Dla listy uzyskanych tokenów sprawdzamy które z nich znajdują się na liście znanych nam kluczy, i te zapisujemy.
 
 
 W ten sposób każdej ofercie z osobna przypisujemy listę technologii które znaleźliśmy w jej treści.

@@ -24,12 +24,12 @@ zbierający dane. Wyróżniliśmy trzy tabele:
       struktury Pracuj.pl)
 + Tagi
     + nazwa tagu
-+ Tabela reprezentująca relację ofert z tagami:
++ Dodatkowa tabela reprezentująca relację ofert z tagami - jest to bowiem
+relacja `many-to-many` - czyli wiele do wielu.
 
-Tabela ofert jest w relacji `many-to-many` z tabelą tagów.
 
 ## Indeksy
 
 W celu optymalizacji często wykonywanych zapytań skorzystaliśmy z indeksów.
-W bazie tagów indeksowaną kolumną jest nazwa tagu, zaś w bazie ofert
+W bazie kluczy indeksowaną kolumną jest nazwa tagu, zaś w bazie ofert
 data dodania oferty oraz data wygaśnięcia oferty.

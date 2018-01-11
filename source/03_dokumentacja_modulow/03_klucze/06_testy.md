@@ -14,7 +14,7 @@ Poniżej przedstawiamy listę plików z testami jednostkowymi oraz opis
 poszczególnych funkcji lub metod:
 
 -   `pipeline.tasks.test_preprocess.py` - plik z testami etapów
-    przygotowujących oferty do ekstrakcji tagów.
+    przygotowujących oferty do ekstrakcji kluczy.
     -   `TestDetectLanguage` - klasa zawierająca metody testujące etap
         detekcji języka w którym napisane jest ogłoszenie.
     -   `test_prepare_extract_proper_fields_from_offer` - test sprawdzający
@@ -28,7 +28,7 @@ poszczególnych funkcji lub metod:
         czy etap zwraca odpowiednią listę tokenów składających się
         z małych liter.
 -   `pipeline.tasks.test_process.py` - plik z testami etapów wykonujących
-    ekstrakcje tagów z technologiami z oferty.
+    ekstrakcje kluczy z technologiami z oferty.
 -   `pipeline.tasks.test_postprocess.py` - plik z testami etapów wykonujących
     zadania po wykonaniu ekstrakcji kluczy.
 
