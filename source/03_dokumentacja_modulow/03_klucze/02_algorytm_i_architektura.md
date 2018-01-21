@@ -20,7 +20,7 @@ zaopatrzyć się w miarę obszerny i sprawdzony ich zbiór.\newline
 Podejście takie, jak później się
 okazało wydaje się być całkiem słuszne, ponieważ stosowane jest także w projektach
 o znacznie szerszym zasięgu i złożoności niż nasz. Dla przykładu, powstająca w momencie
-pisania tej pracy platforma **Google Cloud Job Discavery**, zajmująca się automatycznym dopasowywaniem
+pisania tej pracy platforma **Google Cloud Job Discovery**, zajmująca się automatycznym dopasowywaniem
 ofert pracy do CV potencjalnych pracowników, do działania wykorzystuje zbudowaną przez zespół Google
 ontologię zawierającą, jak podają, ok. 50 tys. umiejętności z różnych pól zawodowych.
 
@@ -35,7 +35,7 @@ wśród nich wszelakie technologie, frameworki, wzorce projektowe i języki prog
 możemy każdą przychodzącą ofertę przeszukać pod względem występowania niektórych z nich. Proces ten przeprowadzamy
 w następując sposób:
 
-1. Po zapisaniu całej oferty do bazu, upraszczamy obiekt przekazując dalej tylko istotne z punktu
+1. Po zapisaniu całej oferty do bazy, upraszczamy obiekt przekazując dalej tylko istotne z punktu
 widzenia komponentu dane, tj.
 
 + ID
@@ -58,3 +58,58 @@ W ten sposób każdej ofercie z osobna przypisujemy listę technologii które zn
 występowania w treści oferty. Właściwością tą zajmie się kolejny moduł systemu, który znalezionym tutaj kluczom
 nada odpowiednie priorytety, biorąc pod uwagę nie tylko kolejność ich występowania w tekście, ale także sąsiedztwo
 wyrazów w jakim się znajdują, czy poprzedzające je frazy.
+
+
+## Uzasadnienie wyboru powyżej opisanego algorytmu
+
+Dużo czasu poświęciliśmy na testowanie wielu algorytmów do wyznaczania
+słów kluczowych z tekstu. Wiele z nich dawało niezadowalające wyniki
+na zbiorach ogłoszeń napisanych w języku polskim.
+Poniżej opisujemy krótko algorytmy które przetestowaliśmy wraz z przykładowymi
+wynikami jakie dawały. Wszystkie przedstawione poniżej wyniki zostały uzyskane
+z poniższej oferty:
+
+\clearpage
+
+![Oferta wykorzystywana do testów algorytmów \label{ref_a_figure}](source/figures/sample_offer.png){ width=100% }
+
+\clearpage
+
++ RAKE(Rapid Automatic Keyword Extraction)[@rakenltk]
+Bardzo popularny na githubie stosunkowo prosty algorytm, niestety
+nie przyniósł zadowalających efektów. Poniżej prezentujemy listę 10
+najważniejszych według algorytmu RAKE fraz/kluczy:
+
+    + umiejętność samoorganizacji potrafisz pisać wysokiej jakości kod posiadasz umiejętność dekompozycji zadań
+    - potrafisz pisać testy jednostkowe znasz dowolny
+    - dostarczania działających rozwiązań jesteś skrupulatny
+    - poziomie przynajmniej dobrym język python
+    - język programowania możesz wykazać
+    - dużym prawdopodobieństwem jesteś osobą
+    - temat relacyjnych baz danych
+    - mile widziana znajomość postgresql
+    - znajomością protokołów sieciowych to
+    - posiadasz dobrą wiedzę
+
+
++ TF-IDF(Term Frequency - Inverse Document Frequency)[@tfidf]
+Jeden z najbardziej popularnych i najszerzej wykorzystywanych algorytmów
+w świecie przetwarzania języka naturalnego, również nie dawał
+zadowalających wyników.
+
+    + pisać
+    + implementowanie
+    + python
+    + posiadasz
+    + wyszukujących
+    + znasz
+    + uwierzytelnianie
+    + dres
+    + niecierpliwością
+    + niespotykaną
+
+
+Z racji bardzo szczególnego podzbioru języka polskiego używanego przy pisaniu
+ogłoszeń powyższe algorytmy dawały bardzo dziwne wyniki, dlatego też
+zdecydowaliśmy się na korzystanie z algorytmu opartego na tagach pobranych
+z serwisu stackoverflow.
