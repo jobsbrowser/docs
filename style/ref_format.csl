@@ -48,13 +48,13 @@
 <choose>
 <if variable="URL">
 <text value="Dostępne pod adresem:" suffix=" "/>
-<text variable="URL"/>
+<text variable="URL" font-style="oblique"/>
 <group prefix=" [" suffix="]">
-<text term="accessed" text-case="capitalize-first" suffix=" "/>
+<text term="" text-case="capitalize-first" suffix=""/>
 <date variable="accessed">
-<date-part name="month" suffix=" "/>
-<date-part name="day" suffix=", "/>
-<date-part name="year"/>
+<date-part name="year" suffix="-"/>
+<date-part name="month" form="numeric-leading-zeros" suffix="-"/>
+<date-part name="day" form="numeric-leading-zeros"/>
 </date>
 </group>
 </if>
@@ -127,7 +127,7 @@
 <key variable="title"/>
 </sort>
 <layout>
-<text macro="author" suffix=","/>
+<text macro="author" suffix="." font-weight="bold"/>
 <date variable="issued" prefix=" " suffix=".">
 <date-part name="year"/>
 </date>
