@@ -44,7 +44,11 @@ przetworzonych przez niego ofert względem czasu.
 
 \clearpage
 
-![Zakładka statystyk. \label{ref_a_figure}](source/figures/www_stats.png){ width=100% }
+![Zakładka statystyk z wybranym jednym tagiem. \label{stats_view}](source/figures/www_stats1.png){ width=100% }
+
+![Wykres pracodawców i lista podobnych technologii. \label{pie_chart}](source/figures/www_stats2.png){ width=100% }
+
+![Wykres porównania tagów z osobna. \label{tags_chart}](source/figures/www_stats3.png){ width=100% }
 
 ![Zakładka wyszukiwania. \label{ref_a_figure}](source/figures/www_search1.png){ width=100% }
 

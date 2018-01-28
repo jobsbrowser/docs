@@ -42,6 +42,11 @@ może być np. jakie technologie występują często wraz z tymi wybranymi przez
 w jednym ogłoszeniu.
 
 
+![Widok statystyk z wykresami prezentowanymi na stronie. \label{ref_a_figure}](source/figures/www_spa_stats.png){ width=100% }
+
+\clearpage
+
+
 **Wyszukiwanie**
 
 Zakładka wyszukiwarki pozwala na przeglądanie zarówno aktywnych jak i archiwalnych
@@ -55,6 +60,11 @@ Nad listą znalezionych ofert, a pod paskiem wyszukiwania znajduje się przycisk
 pozwalający na pobranie ofert spełniających dane kryterium wyszukiwania w formacie JSON.
 
 
+![Widok wyszukiwania z widocznym przyciskiem do eksportu danych. \label{ref_a_figure}](source/figures/www_spa_search.png){ width=100% }
+
+\clearpage
+
+
 **Informacje**
 
 Rolą ostatniej zakładki jest prezentacja użytkownikowi informacji dotyczących
@@ -63,3 +73,8 @@ serwisu jako całości. Zawiera kilka zdań o projekcie oraz dane takie jak
 + datę ostatniego przetwarzania ofert
 + liczbę wszystkich przetworzonych pod względem technologii ofert w bazie
 + wykres powyższej wartości względem czasu
+
+
+![Widok informacji o systemie. \label{ref_a_figure}](source/figures/www_info.png){ width=100% }
+
+\clearpage
