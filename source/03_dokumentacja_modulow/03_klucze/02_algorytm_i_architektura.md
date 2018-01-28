@@ -71,7 +71,7 @@ z poniższej oferty:
 
 \clearpage
 
-![Oferta wykorzystywana do testów algorytmów \label{ref_a_figure}](source/figures/sample_offer.png){ width=100% }
+![Oferta wykorzystywana do uzyskania przykładowego wyniku \label{ref_a_figure}](source/figures/sample_offer.png){ width=100% }
 
 \clearpage
 
@@ -113,3 +113,46 @@ Z racji bardzo szczególnego podzbioru języka polskiego używanego przy pisaniu
 ogłoszeń powyższe algorytmy dawały bardzo dziwne wyniki, dlatego też
 zdecydowaliśmy się na korzystanie z algorytmu opartego na tagach pobranych
 z serwisu stackoverflow.
+
+
+## Znajdowanie podobnych kluczy za pomocą modelu Word2Vec
+
+W celu znalezienia kluczy podobnych do wybranego przez użytkownika zestawu,
+postanowiliśmy skorzystać z modelu Word2Vec [@word2vec].
+Word2vec to grupa modeli reprezentujących słowa jako tzw. zanurzenia słów [@wordemb],
+czyli słowa reprezentowane jako wektory w wielowymiarowej przestrzeni.
+W naszym przypadku zdecydowaliśmy się wytrenować model word2vec nie na całych
+korpusach (wszystkich ogłoszeniach), ale na liście kluczy przypisanych do
+każdego ogłoszenia przez wcześniejszy algorytm. Dzięki takiemu podejściu
+dla każdego klucza otrzymujemy klucze jedynie z naszego ustalonego zbioru
+kluczy (pobranego z serwisu stackoverflow).
+Do wytrenowania modelu skorzystaliśmy z biblioteki gensim [@gensim].
+Poniżej prezentujemy wyniki otrzymane dla klucza `JAVA`:
+
+- java-ee
+- maven
+- junit
+- hibernate
+- groovy
+- soa
+- tomcat
+- jsp
+- jenkins
+- eclipse
+
+Jak widać wyniki są zadowalające, wszystkie klucze znajdujące się na 
+powyższej liście mają wiele wspólnego z językiem programowania JAVA.
+Jednak z powodu stosunkowo małego zbioru treningowego rezultaty nie są 
+tak dobre dla kluczy mających mało wystąpień. Poniżej prezentujemy
+taki przykład na kluczu `Vue.JS`:
+
+- node.js
+- elasticsearch
+- jasmine
+- testy jednostkowe
+- bitbucket
+- api
+- nosql
+- webpack
+- mongodb
+- user-interface
