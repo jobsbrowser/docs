@@ -1,4 +1,4 @@
-# Próby analizy tekstu i uzasadnienie wyboru algorytmu
+# Próby analizy tekstu i uzasadnienie wyboru algorytmu \label{proby_analizy}
 
 Dużo czasu poświęciliśmy na testowanie wielu algorytmów do wyznaczania
 słów kluczowych z tekstu. Wiele z nich dawało niezadowalające wyniki
