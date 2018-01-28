@@ -29,8 +29,8 @@ razem w wielu projektach.
 \clearpage
 
 Aby określić poprawność znajdowanych przez algorytm technologii, wybraliśmy
-kilka technologii dla których wskazaliśmy dziesięć ich idealnych najbliższych
-sąsiadów (technologie najbardziej podobne do nich). Przykładowo dla technologii
+kilka technologii dla których wskazaliśmy dziesięć ich przewidywanych najbliższych
+sąsiadów (technologie subiektywnie najbardziej podobne do nich). Przykładowo dla technologii
 `JAVA` jako jej najbliższych sąsiadów wskazaliśmy:
 
 - maven

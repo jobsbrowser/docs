@@ -50,6 +50,10 @@ o każdej ofercie oraz odnośnik do oryginalnego ogłoszenia w serwisie Pracuj.p
 Prezentowane są w postaci listy, na której każdy element jest rozwijalny, pokazując
 więcej szczegółów.
 
+Z poziomu tej zakładki użytkownik może też przeprowadzić operację eksportu danych.
+Nad listą znalezionych ofert, a pod paskiem wyszukiwania znajduje się przycisk
+pozwalający na pobranie ofert spełniających dane kryterium wyszukiwania w formacie JSON.
+
 
 **Informacje**
 

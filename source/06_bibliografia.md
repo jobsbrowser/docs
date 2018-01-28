@@ -1,3 +1,0 @@
-\footnotesize
-
-# Bibliografia

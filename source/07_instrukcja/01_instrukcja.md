@@ -1,5 +1,9 @@
 # Dostęp do strony
-Lorem ipsum
+
+Funkcjonalność serwisu uzależniona jest od ilości przetworzonych
+ofert znajdujących się w bazie danych (świeżo uruchomiona instancja systemu będzie pusta).
+Zalecane jest zatem korzystanie z oficjalnej wersji serwisu, dostępnej pod adresem
+`http://jobsbrowser.pl` (2018-01-29).
 
 
 # Zakładka statystyk
