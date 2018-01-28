@@ -13,8 +13,7 @@ VueJS wydaje się być dobrym wyborem przy tworzeniu aplikacji, które opieraj�
 się na konsumowaniu danych z różnych API oraz prezentowaniu ich
 użytkownikowi.
 
-Do budowy aplikacji skorzystaliśmy z kilku rozszerzeń usprawniających pracę
-z Vue. Przedstawiamy je poniżej:
+Do budowy aplikacji wykorzystano kilka otwartoźródłowych rozszerzeń:
 
 -   `vuetify`[@vuetify] - framework dostarczający gotowe komponenty stworzone
     w stylu material design

@@ -1,22 +1,21 @@
 # Wymagania
 
 Głównym wymaganiem funkcjonalnym aplikacji jest prezentowanie
-danych oraz wyciągniętych z nich statystyk i informacji użytkownikowi
-w jak najbardziej przystępny oraz przejrzysty sposób. Rozwiązaniem jest
-organizacja strony na trzy zakładki pomiędzy którymi użytkownik może się swobodnie
-przełączać. Zakładki odpowiadają odpowiednio możliwościom:
+danych użytkownikowi w jak najbardziej przystępny oraz przejrzysty sposób.
+Rozwiązaniem okazała się organizacja strony na trzy zakładki pomiędzy którymi użytkownik
+może się swobodnie przełączać. Zakładki odpowiadają kolejno następującym możliwościom:
 
-+ wyświetlania statystyk na podstawie wpisanych w polu wyszukiwania technologii
-+ wyszukiwania ofert na podstawie wpisanych w polu wyszukiwania technologii
-+ przeglądania strony informacyjnej wraz ze statystykami zbiorczymi systemu
++ wyświetlanie statystyk na podstawie wpisanych w polu wyszukiwania technologii
++ wyszukiwanie ofert na podstawie wpisanych w polu wyszukiwania technologii
++ przeglądanie strony informacyjnej wraz ze statystykami zbiorczymi systemu
 
 
-Wymagania niefunkcjonalne sprowadzają się natomiast do:
+Wymagania niefunkcjonalne strony sprowadzają się do:
 
 + **niezawodności** - usługa powinna być dostępna cały czas, ponieważ
   jest ona usługą końcową z której użytkownicy powinni móc korzystać
   w każdej chwili.
 + **wydajności** - liczba użytkowników korzystających ze strony może być
-  bardzo duża, dlatego też aplikacja powinna być napisana wydajnie, aby
+  bardzo duża, dlatego też aplikacja powinna działać wydajnie, aby
   jej niedostępność lub zbyt wolne działanie nie przynosiły negatywnych
   odczuć użytkownikowi.
