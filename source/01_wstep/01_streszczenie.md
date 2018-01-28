@@ -1,7 +1,7 @@
 \section*{Streszczenie}
 \subsection*{Automatyczna Analiza Rynku Pracy IT}
 
-Rynek pracy w branży IT jest bardzo dynamiczny. Szczególnie jest to zauważalne
+Rynek pracy w branży IT jest bardzo dynamiczny. Szczególnie jest to widoczne
 w ostatnich latach, kiedy to nieustannie zauważamy wzajemne wypieranie się technologii.
 Na zmiany reagują wszyscy - począwszy od firm, które aby dorównać konkurencji
 stale wdrażają nowe rozwiązania, przez
@@ -18,7 +18,7 @@ Pierwszym z nich jest zaplecze analityczne (*back end*),
 zajmujące się automatycznym pobieraniem zamieszczanych na jednym z największych
 polskich serwisów rekrutacyjnych (Pracuj.pl) ofert z branży IT oraz ich
 późniejszą analizą pod kątem umieszczanych w nich technologii. Drugim wykonanym
-komponentem jest aplikacja WWW (*front end*)prezentująca wyniki użytkownikowi oraz umożliwiająca
+komponentem jest aplikacja WWW (*front end*) prezentująca wyniki użytkownikowi oraz umożliwiająca
 eksport zebranych danych do samodzielnej analizy.
 
 

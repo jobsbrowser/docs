@@ -1,5 +1,3 @@
-\clearpage
-
 # Opis biznesowy
 
 Głównym zadaniem aplikacji jest automatyczna analiza rynku pracy. System

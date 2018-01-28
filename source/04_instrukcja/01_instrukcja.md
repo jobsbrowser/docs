@@ -1,10 +1,8 @@
-# Instrukcja użytkowania oraz testy akceptacyjne
+# Dostęp do strony
+Lorem ipsum
 
-Z racji tego, że funkcjonalność aplikacji jest bardzo zwięzła instrukcja jej
-użytkowania może mieć postać dokumentacji testów akceptacyjnych i tak też
-chcielibyśmy ją przedstawić.
 
-## Zakładka statystyk
+# Zakładka statystyk
 Jest to pierwsza zakładka którą jako użytkownik widzimy po wprowadzeniu
 w przeglądarce adresu aplikacji. W górnej części strony znajduje się pasek
 menu pozwalający na zmianę zakładki, a w środkowej pole do wpisywania kluczy.
@@ -21,7 +19,7 @@ na dokładne zbadanie wartości w określonym dniu najeżdżając na wykres kurs
 myszy.
 
 
-## Zakładka wyszukiwania
+# Zakładka wyszukiwania
 Drugą dostępną z menu zakładką jest ta z widokiem wyszukiwania.
 Tutaj ponownie zobaczymy identyczne pole do wpisywania kluczy, jednak tym razem
 pod spodem pojawi nam się lista znalezionych ofert które ten klucz zawierają.
@@ -34,7 +32,7 @@ Ogłoszenia na liście posortowane są wg daty ich wygaśnięcia (znaleźć na n
 również ogłoszenia archiwalne). O statusie danej oferty informuje etykieta w prawym górnym rogu.
 
 
-## Zakładka informacji
+# Zakładka informacji
 Ostatnią zakładką jest ta poświęcona informacjom o serwisie oraz statystykom
 zbiorczym. Zobaczymy tam krótki opis projektu oraz wykres ilości wszystkich
 przetworzonych przez niego ofert względem czasu.

@@ -58,7 +58,7 @@ Interfejs zaimplementowany jest przy użyciu frameworka Django[@django].
 **Baza danych**
 
 Wykorzystanym silnikiem bazy danych jest SQLite3[@sqlite]. Wybór padł na
-bazę relacyjną ze względu na to, że wykonwane są do niej skomplikowane zapytania,
+bazę relacyjną ze względu na to, że wykonywane są do niej skomplikowane zapytania,
 które silnikom nierelacyjnych baz danych zajmują więcej czasu oraz zasobów
 serwera, o czym przekonaliśmy się, testując te same zapytania na bazie danych
 MongoDB[@mongodb].
