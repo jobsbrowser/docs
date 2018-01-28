@@ -2,8 +2,7 @@
 
 # Wymaganie niefunkcjonalne
 
-W poniższej tabeli przedstawione zostały wymagania niefunkcjonalne tworzonej
-aplikacji.
+Tabela \ref{nfunc_requirements} przedstawia wymagania niefunkcjonalne postawione stworzonej aplikacji.
 
 +------------------+-----------------------------------------------------------+
 | Obszar wymagań   | Opis                                                      |
@@ -13,7 +12,7 @@ aplikacji.
 +------------------+-----------------------------------------------------------+
 | Używalność       | Aplikacja WWW jest intuicyjna w obsłudze dla użytkownika. |
 +------------------+-----------------------------------------------------------+
-| (Usability)      | Aplikacja WWW powinna być dostępna dla użytkownika w      |
+| (Usability)      | Aplikacja WWW jest dostępna dla użytkownika w             |
 |                  | każdym wybranym dla niego momencie.                       |
 |                  | \linebreak                                                |
 +------------------+-----------------------------------------------------------+
@@ -21,20 +20,15 @@ aplikacji.
 | (Reliability)    | godziny, 7 dni w tygodniu. Za wyjątkiem prac serwisowych  |
 |                  | nie dłuższych niż 2 h w tygodniu przy założeniu           |
 |                  | stabilnego połączenia internetowego.                      |
-|                  | Pozostałe moduły powinny działać bez problemów na          |
-|                  | oddzielnych serwerach.                                    |
 |                  | \linebreak                                                |
 +------------------+-----------------------------------------------------------+
 | Wydajność        | Aplikacja WWW powinna działać płynnie na każdym komputerze|
-| (Performance)    | z dowolnym systemem operacyjnym na 1 z wcześniej          |
-|                  | wymienionych przeglądarek.                                |
-|                  | Pozostałe moduły powinny uruchamiać się same co określony |
-|                  | odstęp czasu. Początkowo planowane jest uruchamianie      |
-|                  | ich raz dziennie.                                         |
+| (Performance)    | z dowolnym systemem operacyjnym wyposażonym w odpowiednią przeglądarkę. |
 |                  | \linebreak                                                |
 +------------------+-----------------------------------------------------------+
-| Wsparcie         | W razie jakichkolwiek problemów w aplikacji WWW           |
-| (Supportability) | dostępny jest formularz kontaktowy.                       |
+| Wsparcie         | Dane z których korzysta serwis aktualizowane są na bieżąco. |
+|                  | W stopce strony umieszczone są adresy e-mailowe autorów aplikacji, |
+|                  | oferujących pomoc w przyadku problemów technicznych. |
 +------------------+-----------------------------------------------------------+
 
-Table: Wymagania niefunkcjonalne
+Table: Wymagania niefunkcjonalne \label{nfunc_requirements}

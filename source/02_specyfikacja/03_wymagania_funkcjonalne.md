@@ -1,80 +1,73 @@
 # Wymagania funkcjonalne
 
-Podstawą interakcji użytkownika jest strona WWW - użytkownik powinien
-być w stanie otworzyć ją na dowolnym komputerze z dostępem do internetu
-i wyposażonym w aktualną wersję jednej z wiodących na rynku przeglądarek.
+Podstawą interakcji użytkownika z systemem jest strona WWW - użytkownik powinien
+być w stanie otworzyć ją na dowolnym komputerze z dostępem do internetu, 
+wyposażonym w przeglądarkę:
 
 + Google Chrome w wersji 49 lub wyższej
 + Mozilla Firefox w wersji 52 lub wyższej
 + Safari w wersji 10.1 lub wyższej
 
-Posiadanie przeglądarki innej niż wymienione, lub w starszej wersji nie oznacza
-że strona nie będzie działać, jednak jako twórcy nie możemy zagwarantować
+Posiadanie przeglądarki innej niż wymienione lub w starszej wersji nie oznacza
+że strona nie będzie działać, jednak nie da się zagwarantować
 że będzie to działanie w pełni poprawne.
 
-Na stronie nie przewidujemy kont użytkowników, nawet administracyjnego. Każdy
-wchodzący na stronę będzie miał dostęp do tych samych danych oraz takie same
+Na stronie nie przewidziano kont użytkowników, nawet administracyjnego. Każdy
+z odwiedzających ma dostęp do tych samych danych oraz takie same
 możliwości.
 
-Funkcjonalność strony rozbita jest na dwa moduły. Moduł wyszukiwarki
-oraz moduł statystyk. Możliwości użytkownika prezentuje załączony na końcu
-sekcji diagram przypadków użycia. 
+Funkcjonalność aplikacji WWW rozbita jest na trzy podstrony:
+
++ statystyki technologii
++ wyszukiwanie ofert 
++ informacje o systemie
+
+Możliwości użytkownika w obrębie każdej z sekcji prezentuje załączony diagram 
+przypadków użycia (Rys. \ref{use_case_diagram}).
 
 
-## Wyszukiwanie ofert wg klucza
+## Wyświetlenie statystyk technologii
 
-Jednym z podstawowych zastosowań strony jest wyszukiwanie ofert zebranych
-i umieszczonych w bazie przez nasz system. Jako kryterium wyszukiwania
-(przez mechanizm filtrowania) może zostać użyty tzw. *klucz*, czyli wyłuskana
-z opisu ogłoszenia jego cecha. Klucze dzielimy na trzy kategorie:
+Jest to pierwsza podstawowa funkcjonalność strony. Pozwala
+ona użytkownikowi na wybór jednej bądź kilku (przy pomocy auto-uzupełniania)
+technologii oraz wyświetlenie:
 
-+ **Obszary** (np. Mobile development, Helpdesk)
-+ **Stanowiska** (np. Software Developer, Data Scientist)
-+ **Technologie i umiejętności** (np. Java, Docker, AWS)
-
-Pozwoli to na kompleksowe wyszukiwanie ofert ze względu na branżę
-czy pozycję którą interesuje się użytkownik oraz posiadane przez niego
-umiejętności. Możliwe jest podanie wielu kluczy jako kryterium.
-
-
-## Wyświetlenie oferty
-
-Wynikiem wyszukiwania jest lista ofert. Każdą z nich użytkownik może
-wyświetlić uzyskując dostęp do takich informacji jak:
-
-+ Tytuł oferty
-+ Data dodania i wygaśnięcia oferty w macierzystym serwisie
-+ Nazwa pracodawcy i miejsce pracy
-+ Wszystkie wyłuskane przez system klucze
-+ Odnośnik do oryginalnego ogłoszenia w macierzystym serwisie
++ w przypadku wybrania więcej niż jednej technologii, wykresu porównującego z osobna
+  ich popularność (pod względem ilości ofert)
++ wykresu ilości ofert zawierających każdą z wybranych technologii
++ wykresu procentowej ilości ofert z systemu zawierających te technologie
++ wykresu kołowego przedstawiającego najczęściej poszukujących wybranych technologii
+  pracodawców
++ listy dziesięciu najbardziej zbliżonych technologii
 
 
-## Wyświetlenie statystyk serwisu
+## Wyszukiwanie ofert wg technologii
+
+Kolejną oferowaną użytkownikom możliwością jest wyszukiwanie ofert zebranych
+i umieszczonych w bazie. Rolę kryterium wyszukiwania, podobnie jak podczas
+przeglądania statystyk, pełni jedna lub więcej wybranych technologii. Rezultatem
+jest lista ogłoszeń oraz przycisk oferujący możliwość ich eksportu w formacie JSON.
+
+Każdą z ofert widocznych na liście można rozwinąć, uzyskując dostęp do następujących informacji:
+
++ tytuł oferty
++ data dodania i wygaśnięcia oferty w macierzystym serwisie
++ nazwa pracodawcy i miejsce pracy
++ wszystkie wykryte w treści oferty technologie
++ odnośnik do oryginalnego ogłoszenia w macierzystym serwisie
+
+
+## Wyświetlenie informacji o systemie
 
 W osobnej sekcji użytkownik ma dostęp do wyświetlenia zbiorczych statystyk
 dotyczących serwisu i dostępnych w nim danych. Zbiór dostępnych statystyk
-planowo zostanie rozwinięty podczas pracy nad ostatnimi dwoma modułami systemu.
-Bazowe, przewidziane już teraz to:
+sprowadza się do:
 
-+ Liczba wszystkich ofert w bazie systemu
-+ Wykres powyższej wartości względem czasu
-+ Datę ostatniego zebrania danych z serwisu macierzystego
-+ Listę wszystkich istniejących w systemie kluczy
++ liczby wszystkich ofert w bazie systemu
++ wykresu powyższej wartości względem czasu
++ daty ostatniego zebrania danych z serwisu macierzystego
 
 
-## Wyświetlenie statystyk klucza
-
-Jest to druga obok wyszukiwania podstawowa funkcjonalność strony. Pozwala
-ona użytkownikowi na wybór klucza oraz wyświetlenie:
-
-+ Wykresu ilości ofert zawierających ten klucz względem czasu
-+ Wykresu procentowej ilości ofert z systemu zawierających ten klucz
-+ Pogrupowanych w kategorie kluczy które występują z tym kluczem
-najczęściej w jednym ogłoszeniu
-
-Możliwe jest podanie wielu kluczy. Wtedy pod uwagę przy generowaniu powyższych
-statystyk będą brane tylko ogłoszenia które zawierają każdy z nich.
-
-![Przypadki użycia. \label{ref_a_figure}](source/figures/usecase_diagram.png){ width=100% }
+![Przypadki użycia. \label{use_case_diagram}](source/figures/usecase_diagram.png){ width=100% }
 
 \clearpage
