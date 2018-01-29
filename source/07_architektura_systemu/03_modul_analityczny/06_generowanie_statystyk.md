@@ -51,9 +51,7 @@ Interfejs zaimplementowany jest przy użyciu frameworka Django[@django].
 Implementując ten interfejs wdrażaliśmy dobre praktyki programowania
 opisane w książce
 "Two Scoops of Django 1.11: Best Practices for the Django Web Framework"[@djangobook].
-
-\newline
-\newline
+\clearpage
 
 **Baza danych**
 

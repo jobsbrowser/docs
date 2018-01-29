@@ -56,5 +56,5 @@ framework sprowadza się do ustawienia odpowiednich atrybutów.
 Aby uruchomić testy jednostkowe w konsoli należy wpisać polecenie
 `python manage.py test`.
 
-Testy jednostkowe znajdują się w pliku `offers/offers.py` i objemują klasy oraz metody
+Testy jednostkowe znajdują się w pliku `offers/offers.py` i obejemują klasy oraz metody
 implementujące logikę widoków znajdujących się w pliku `offers/views.py`.
