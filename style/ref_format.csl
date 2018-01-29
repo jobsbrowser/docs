@@ -107,13 +107,31 @@
 <text variable="page"/>
 </group>
 </macro>
-<citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
-<layout prefix="(" suffix=")" delimiter="; ">
+<citation et-al-min="5" et-al-use-first="1"
+  disambiguate-add-year-suffix="true"
+  disambiguate-add-names="true"
+  disambiguate-add-givenname="true"
+>
+<sort>
+    <key variable="citation-number"/>
+</sort>
+<layout prefix="[" suffix="]" delimiter="; ">
 <group delimiter=", ">
-<group delimiter=" ">
-<text macro="author-short"/>
-<text macro="year-date"/>
-</group>
+<choose>
+  <if type="book">
+    <group delimiter=" ">
+    <text variable="citation-number" suffix=", "/>
+    <text macro="author"/>
+    <text macro="year-date"/>
+    </group>
+  </if>
+  <else>
+    <group delimiter=" ">
+    <text variable="citation-number" suffix=", "/>
+    <text macro="author"/>
+    </group>
+  </else>
+</choose>
 <group>
 <label variable="locator" form="short"/>
 <text variable="locator"/>
@@ -121,16 +139,20 @@
 </group>
 </layout>
 </citation>
-<bibliography hanging-indent="true" et-al-min="4" et-al-use-first="1">
+<bibliography hanging-indent="true" et-al-min="5" et-al-use-first="1"
+  second-field-align="true"
+>
 <sort>
-<key macro="author"/>
-<key variable="title"/>
+    <key variable="citation-number"/>
 </sort>
 <layout>
-<text macro="author" suffix="." font-weight="bold"/>
-<date variable="issued" prefix=" " suffix=".">
-<date-part name="year"/>
-</date>
+<group>
+  <text variable="citation-number" prefix="[" suffix="] "/>
+  <text macro="author" suffix="." font-weight="bold"/>
+  <date variable="issued" prefix=" " suffix=".">
+  <date-part name="year"/>
+  </date>
+</group>
 <choose>
 <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
 <group prefix=" " delimiter=" " suffix=",">
@@ -179,7 +201,9 @@
 </group>
 </else>
 </choose>
+<group display="block">
 <text prefix=" " macro="access" suffix="."/>
+</group>
 </layout>
 </bibliography>
 </style>
