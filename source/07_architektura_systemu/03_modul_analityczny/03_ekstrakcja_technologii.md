@@ -1,6 +1,6 @@
 # Ekstrakcja technologii
 
-Uznaliśmy, że aby w miarę poprawnie rozpoznawać klucze, powinniśmy w pierwszym kroku
+Uznaliśmy, że aby w miarę poprawnie rozpoznawać technologie, powinniśmy w pierwszym kroku
 zaopatrzyć się w miarę obszerny i sprawdzony ich zbiór.\newline
 Podejście takie, jak później się
 okazało wydaje się być całkiem słuszne, ponieważ stosowane jest także w projektach
@@ -37,7 +37,7 @@ widzenia komponentu dane, tj.
 
 5. Usuwamy zbędne z punktu widzenia analizy językowej tokeny, takie jak przyimki, spójniki czy zaimki.
 
-6. Dla listy uzyskanych tokenów sprawdzamy które z nich znajdują się na liście znanych nam kluczy, i te zapisujemy.
+6. Dla listy uzyskanych tokenów sprawdzamy które z nich znajdują się na liście znanych nam technologii, i te zapisujemy.
 
 
 W ten sposób każdej ofercie z osobna przypisujemy listę technologii które znaleźliśmy w jej treści.

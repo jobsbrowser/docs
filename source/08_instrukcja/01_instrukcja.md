@@ -9,14 +9,14 @@ Zalecane jest zatem korzystanie z oficjalnej wersji serwisu, dostępnej pod adre
 # Zakładka statystyk
 Jest to pierwsza zakładka którą jako użytkownik widzimy po wprowadzeniu
 w przeglądarce adresu aplikacji. W górnej części strony znajduje się pasek
-menu pozwalający na zmianę zakładki, a w środkowej pole do wpisywania kluczy.
+menu pozwalający na zmianę zakładki, a w środkowej pole do wyboru technologii.
 
-Po wprowadzeniu klucza i wciśnięciu klawisza Enter zakoloruje się on, a pod
-spodem pojawią się dwa wykresy. Wpisany klucz można usunąć lub dodać do niego
+Po wyborze technologii i wciśnięciu klawisza Enter zakoloruje się on, a pod
+spodem pojawią się dwa wykresy. Wybraną technologię można usunąć lub dodać do niego
 kolejny pisząc w polu i ponownie wciskając Enter.
 
 Na pierwszym wykresie przedstawiona będzie ilość aktywnych ofert zawierających
-dany klucz konkretnego dnia, a na drugim jaką procentowo część wszystkich
+wybrane technologie konkretnego dnia, a na drugim jaką procentowo część wszystkich
 aktywnych wówczas ofert z branży IT one stanowiły. Wykresy są w pewnym stopniu
 interaktywne. Tzn. nie pozwalają na zmianę skali czy zakresu, ale pozwalają
 na dokładne zbadanie wartości w określonym dniu najeżdżając na wykres kursorem
@@ -25,10 +25,10 @@ myszy.
 
 # Zakładka wyszukiwania
 Drugą dostępną z menu zakładką jest ta z widokiem wyszukiwania.
-Tutaj ponownie zobaczymy identyczne pole do wpisywania kluczy, jednak tym razem
-pod spodem pojawi nam się lista znalezionych ofert które ten klucz zawierają.
+Tutaj ponownie zobaczymy identyczne pole do wyboru technologii, jednak tym razem
+pod spodem pojawi nam się lista znalezionych ofert które je zawierają.
 Każdą z nich możemy rozwinąć żeby zobaczyć więcej informacji, w tym link do 
-oryginalnego ogłoszenia czy pozostałe wykryte w ofercie klucze.
+oryginalnego ogłoszenia czy pozostałe wykryte w ofercie technologie.
 Lista jest paginowana, co zwiększa komfort użytkownika i poprawia szybkość
 ładowania wyników.
 

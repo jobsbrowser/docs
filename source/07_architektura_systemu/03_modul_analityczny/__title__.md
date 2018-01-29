@@ -1,6 +1,6 @@
 \clearpage
 
-# Moduł analityczny
+# Moduł analityczny \label{modul_analityczny}
 
 Kod źródłowy znajduje się w repozytoriach:
 

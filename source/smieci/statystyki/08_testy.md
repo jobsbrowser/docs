@@ -2,11 +2,7 @@
 
 ## Testy jednostkowe
 
-Aby uruchomić testy jednostkowe w konsoli należy wpisać polecenie
-`python manage.py test`.
 
-Testy jednostkowe znajdują się w pliku `offers/offers.py` i objemują klasy oraz metody
-implementujące logikę widoków znajdujących się w pliku `offers/views.py`.
 
 ## Testy akceptacyjne
 Moduł oferuje funkcjonalność serwera backendowego, brak jest w nim jakiejkolwiek
