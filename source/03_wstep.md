@@ -33,7 +33,7 @@ spis wymagań czy przewidziane grupy odbiorców.
 
 W rozdziale drugim znajduje się opis każdego z wyodrębnionych komponentów systemu.
 Opisuje on ich architekturę, zasadę działania oraz efekt końcowy, ale też napotkane problemy,
-zastosowane algorytmy czy opis użytych narzędzi.
+zastosowane algorytmy czy użyte narzędzia.
 
 Rozdział trzeci zawiera instrukcję obsługi aplikacji WWW będącej efektem końcowym
 prac nad systemem.
