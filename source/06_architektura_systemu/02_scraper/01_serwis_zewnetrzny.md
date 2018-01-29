@@ -1,7 +1,7 @@
 # Serwis zewnętrzny
 
-Pracuj.pl dzieli zamieszczone w nim oferty na kategorie. My, z racji tematyki
-pracy skupiamy się wyłącznie na trzech z nich:
+Serwis Pracuj.pl dzieli zamieszczone w nim oferty na kategorie. Z racji tematyki
+pracy brane pod uwagę będą wyłącznie trzy z nich. Są to (wraz z podziałem na podkategorie):
 
 + Internet / e-Commerce / Nowe media
     + E-marketing / SEM / SEO
@@ -25,8 +25,8 @@ pracy skupiamy się wyłącznie na trzech z nich:
     + Zarządzanie projektem
 
 Widok listy ogłoszeń w serwisie umożliwia wybór kategorii, z których ogłoszenia
-chcemy zobaczyć. Skorzystaliśmy z tej możliwości, aby uzyskać bazowy link od
-którego zaczniemy pobieranie ofert.
+mają zostać wyświetlone. Możliwość ta pozwola na uzyskanie bazowego linku od
+którego zacznie się pobieranie ofert.
 
 ![Widok paginacji ogłoszeń w witrynie pracuj.pl. \label{ref_a_figure}](source/figures/pracuj_pagination_view.png){ width=100% }
 
@@ -39,7 +39,7 @@ ale też z poruszaniem się pomiędzy ponumerowanymi stronami listy.
 
 Do każdej z ofert na stronie (których znajduje się ok. 50) prowadzi bezpośredni
 link, który można wydobyć z kodu HTML listy. Podstrona pojedynczej oferty
-zawiera wszystkie interesujące nas informacje również możliwe do uzyskania
+zawiera wszystkie interesujące informacje, również możliwe do uzyskania
 z kodu HTML przy użyciu odpowiednich selektorów CSS. Dostępne w przystępny
 sposób informacje to:
 

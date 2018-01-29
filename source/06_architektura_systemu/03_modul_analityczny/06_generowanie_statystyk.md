@@ -52,12 +52,6 @@ Implementując ten interfejs wdrażaliśmy dobre praktyki programowania
 opisane w książce
 "Two Scoops of Django 1.11: Best Practices for the Django Web Framework"[@djangobook].
 
-
-![Schemat modułu. \label{ref_a_figure}](source/figures/backend_diagram.png){ width=100% }
-
-\clearpage
-
-
 **Baza danych**
 
 Wykorzystanym silnikiem bazy danych jest SQLite3[@sqlite]. Wybór padł na

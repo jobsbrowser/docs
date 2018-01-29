@@ -8,5 +8,5 @@ Kod źródłowy znajduje się pod adresem:
 
 Komponent zajmuje się automatycznym pobieraniem ofert z serwisu zewnętrznego,
 ekstrakcją podstawowych informacji oraz przesłaniem tak przetworzonych ofert
-do kolejnego modułu. Zdecydowaliśmy się na serwis Pracuj.pl jako źródło
-ofert oraz na framework **Scrapy**[@scrapy] jako bazę naszego modułu.
+do kolejnego modułu. Wybór padł na serwis Pracuj.pl jako źródło
+ofert oraz na framework **Scrapy**[@scrapy] jako bazę kodu robota.

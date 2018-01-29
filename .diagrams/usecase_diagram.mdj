@@ -375,7 +375,7 @@
 											"height": 32,
 											"autoResize": false,
 											"underline": false,
-											"text": "Wyszukiwanie ofert wg klucza",
+											"text": "Wyszukiwanie ofert wg wybranych technologii",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": true
@@ -1005,7 +1005,7 @@
 											"height": 32,
 											"autoResize": false,
 											"underline": false,
-											"text": "Wyświetlenie statystyk serwisu",
+											"text": "Wyświetlenie statystyk systemu",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": true
@@ -1315,12 +1315,12 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 276,
-											"top": 597,
+											"top": 589,
 											"width": 177,
-											"height": 32,
+											"height": 48,
 											"autoResize": false,
 											"underline": false,
-											"text": "Wyświetlenie statystyk klucza",
+											"text": "Wyświetlenie statystyk dotyczących wybranych technologii",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": true
@@ -1387,9 +1387,9 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 271,
-									"top": 590,
+									"top": 582,
 									"width": 187,
-									"height": 44,
+									"height": 60,
 									"autoResize": false,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFf1Zz2TddFKqc="
@@ -3765,7 +3765,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFf1ZXIAtRia04="
 					},
-					"name": "Wyszukiwanie ofert wg klucza",
+					"name": "Wyszukiwanie ofert wg wybranych technologii",
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecialization": false,
@@ -3789,7 +3789,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFf1ZXIAtRia04="
 					},
-					"name": "Wyświetlenie statystyk serwisu",
+					"name": "Wyświetlenie statystyk systemu",
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecialization": false,
@@ -3801,7 +3801,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFf1ZXIAtRia04="
 					},
-					"name": "Wyświetlenie statystyk klucza",
+					"name": "Wyświetlenie statystyk dotyczących wybranych technologii",
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecialization": false,

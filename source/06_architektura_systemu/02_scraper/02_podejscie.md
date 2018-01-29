@@ -39,17 +39,3 @@ urządzeń o wyższej rozdzielczości ekranu (Laptopy, komputery PC). Problemem 
 się jednak niejednolita struktura danych, utrudniająca automatyczne wydobywanie
 informacji z treści ogłoszenia. Rozwiązaniem okazało się korzystanie z wersji
 portalu przeznaczonej dla urządzeń mobilnych.
-
-
-**Zabezpieczenia serwisu przed zbieraniem danych**
-
-Wartym wspomnienia jest fakt stosowania przez serwis Pracuj.pl zabezpieczeń
-utrudniających automatyczne zbieranie danych. Podczas pierwszych testów
-modułu wszystkie wychodzące żądania HTTP miały nagłówek `User-Agent` ustawiony
-na nazwę projektu - `jobsbrowser`. Nie zauważono wtedy żadnych
-trudności związanych z uzyskaniem przez scrapera dostępu do zasobów
-serwisu. Po kilku dniach jednak, sytuacja się zmieniła. Okazało się, że wszystkie
-żądania wychodzące z systemu (nawet z innych adresów IP) podpisane jako `jobsbrowser` były
-odrzucane przez serwer. Konieczne było wprowadzenie poprawki w kodzie modułu,
-tak żeby nagłówkiem `User-Agent` imitował przeglądarkę internetową. Wybór padł
-na Google Chrome w wersji 41 na urządzenia mobilne, i to rozwiązało problem.
