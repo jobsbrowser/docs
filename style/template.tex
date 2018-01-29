@@ -1,4 +1,8 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+% \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+
+\documentclass[a4paper,11pt,twoside]{report}
+
+
 $if(fontfamily)$
 \usepackage{$fontfamily$}
 $else$
@@ -23,6 +27,16 @@ $endif$
 \usepackage{truncate}
 \usepackage{caption}
 \usepackage{tocloft}
+\usepackage{amsfonts}
+\usepackage{mathrsfs} 
+\usepackage{amsmath,amsthm,latexsym,xpatch}
+\usepackage[dvips]{graphicx,color}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{pstricks}
+\usepackage{textcomp}
 % TP: end hack
 
 $if(linestretch)$
@@ -163,7 +177,13 @@ $for(header-includes)$
 $header-includes$
 $endfor$
 
+
+
+
+
 \begin{document}
+
+
 $if(title)$
 \maketitle
 $endif$
