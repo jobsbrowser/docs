@@ -1,6 +1,8 @@
 # Wykonanie (SPA)
 
 Aplikacja wykonana została w technologii *SPA* z użyciem frameworka **Vue.js**[@vuejs]
+Podczas prac nad aplikacja przydatne okazały się porady oraz przykłady z ksiązki
+"Learning Vue.js 2"[@vuejs2book]
 
 SPA to skrót od *Single Page Application*. Nazywamy tak stronę internetową,
 która do zmiany prezentowanej użytkownikowi treści, np. podczas przejścia do innej

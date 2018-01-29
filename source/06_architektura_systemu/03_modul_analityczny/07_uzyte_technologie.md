@@ -1,5 +1,9 @@
 # Wykorzystane technologie
 
+Całość kodu modułu analitycznego napisana jest w języku *Python*,
+implementując go wdrażano wiele wzorców, receptur opisanych w książce
+"Fluent Python"[@fluentpython].
+
 
 **Flask**
 

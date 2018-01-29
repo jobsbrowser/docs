@@ -48,6 +48,9 @@ Konsumentem generowanych przez usługę statystyk jest aplikacja
 WWW z której korzysta końcowy użytkownik.
 
 Interfejs zaimplementowany jest przy użyciu frameworka Django[@django].
+Implementując ten interfejs wdrażaliśmy dobre praktyki programowania
+opisane w książce
+"Two Scoops of Django 1.11: Best Practices for the Django Web Framework"[@djangobook].
 
 
 ![Schemat modułu. \label{ref_a_figure}](source/figures/backend_diagram.png){ width=100% }
