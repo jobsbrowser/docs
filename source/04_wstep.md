@@ -14,6 +14,8 @@ W obserwacji takiego wpływu mógłby pomóc proces długotrwałej analizy pojaw
 się na rynku ofert pracy - szczególnie pod kątem technologii, których znajomość
 jest wymagana przez pracodawców.
 
+\pagenumbering{arabic}
+
 Aplikacja, której poświęcono tę pracę, jest próbą udowodnienia, że proces taki
 da się zaprojektować, zautomatyzować i - bez wymogu nadmiernej ingerencji użytkownika - zbierać,
 analizować, wizualizować oraz udostępniać najbardziej istotne

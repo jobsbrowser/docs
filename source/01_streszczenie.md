@@ -7,7 +7,9 @@ Aplikacja, której poświęcono tę pracę, jest próbą udowodnienia, że proce
 
 Słowa kluczowe: *Rynek pracy IT*, *Automatyzacja*, *Web Scraping*
 
-\clearpage
+\pagenumbering{gobble}
+
+\cleardoublepage
 
 \section*{Abstract}
 \subsection*{Automated Job Market Analysis}
@@ -18,6 +20,7 @@ The application, on which this thesis is concentrated, is an attempt to prove th
 
 Keywords: IT job market, Automation, Web Scraping
 
-\clearpage
+\pagenumbering{gobble}
 
+\cleardoublepage
 

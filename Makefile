@@ -37,6 +37,7 @@ pdf:
 	-V documentclass:report \
 	-V lang:polish \
 	-V mainlang:polish \
+	--variable=subparagraph \
 	-N \
 	--latex-engine=xelatex
 
