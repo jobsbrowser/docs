@@ -14,6 +14,8 @@
 \fancyfoot[LE,RO]{\thepage}
 % \fancyhead[LO]{\sc \nouppercase{\rightmark}}
 % \fancyhead[RE]{\sc \leftmark}
+\usepackage{etoolbox}
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
 
 % Following package is used to add background image to front page
 \usepackage{wallpaper}
