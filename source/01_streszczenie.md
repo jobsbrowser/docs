@@ -1,5 +1,5 @@
 \section*{Streszczenie}
-\subsection*{Automatyczna analiza rynku pracy IT}
+\subsection*{Automatyczna analiza rynku pracy}
 
 Rynek pracy w branży IT jest bardzo dynamiczny. Szczególnie jest to widoczne w ostatnich latach, kiedy to nieustannie zauważamy wzajemne wypieranie się technologii. Na zmiany reagują wszyscy - począwszy od firm, które- aby dorównać konkurencji- stale wdrażają nowe rozwiązania, przez pracowników chcących nieustannie poszerzać własne kompetencje, po uczelnie wyższe, które starają się przekazać swoim przyszłym absolwentom jak najbardziej aktualną wiedzę i umiejętności. Istotna staje się zatem możliwość wglądu w trendy i oparta na niej analiza zachodzących zmian. 
 
@@ -12,7 +12,7 @@ Słowa kluczowe: *Rynek pracy IT*, *Automatyzacja*, *Web Scraping*
 \cleardoublepage
 
 \section*{Abstract}
-\subsection*{Automated IT job market analysis}
+\subsection*{Automatic job market analysis}
 
 The job market in the IT industry is very dynamic. It has been especially visible in the recent years, when we have constantly noticed the mutual displacement of technologies. Everyone reacts to those changes – starting from companies, which are constantly implementing new solutions to match the competition, through the employees, who want to expand their own competences,  and ending up with universities, who are trying to give their future graduates the most up-to-date knowledge and skills. Therefore, the possibility of having an insight into trends and basing on it an analysis of occurring changes become very important.
 
